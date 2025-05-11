@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FONT AWESOME ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Responsive portfolio website - Crypticalcoder</title>
+</head>
+
+<body>
+  <!--==================== STYLE SWITCHER ====================-->
+  <input type="radio" name="color" id="color-1" />
+  <input type="radio" name="color" id="color-2" />
+  <input type="radio" name="color" id="color-3" />
+  <input type="radio" name="color" id="color-4" />
+  <input type="radio" name="color" id="color-5" />
+  <input type="radio" name="color" id="color-6" />
+  <input type="radio" name="color" id="color-7" />
+  <input type="radio" name="color" id="color-8" />
+  <input type="radio" name="color" id="color-9" />
+  <input type="radio" name="color" id="color-10" />
+  <input type="checkbox" id="toggler" />
+  <input type="checkbox" id="day-night" />
+
+  <div class="style__switcher">
+    <label for="toggler" class="style__switcher-toggler">
+      <i class="fa-solid fa-gear fa-spin"></i>
+    </label>
+
+    <label for="day-night" class="style__switcher-theme">
+      <i class="fa-solid fa-sun"></i>
+      <i class="fa-solid fa-moon"></i>
+    </label>
+
+    <h3 class="style__switcher-title">Theme Colors</h3>
+
+    <div class="style__switcher-colors">
+      <label for="color-1" class="color-1 color"></label>
+      <label for="color-2" class="color-2 color"></label>
+      <label for="color-3" class="color-3 color"></label>
+      <label for="color-4" class="color-4 color"></label>
+      <label for="color-5" class="color-5 color"></label>
+      <label for="color-6" class="color-6 color"></label>
+      <label for="color-7" class="color-7 color"></label>
+      <label for="color-8" class="color-8 color"></label>
+      <label for="color-9" class="color-9 color"></label>
+      <label for="color-10" class="color-10 color"></label>
+    </div>
+  </div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">Alice</a>
+
+      <input type="checkbox" id="nav-toggler" />
+
+      <label for="nav-toggler" class="nav__toggle">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#qualification" class="nav__link">Experience</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#services" class="nav__link">Services</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#works" class="nav__link">Portfolio</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__small">Hello</span>
+          <h1 class="home__title">
+            <span>I'm</span> Alice <br />
+            a <span>UI/UX Designer</span>
+          </h1>
+
+          <p class="home__description">
+            I design with creativity, precision, and attention to detail.
+            From architecture to digital design, I blend technical skills and empathy to create accessible and
+            meaningful experiences.
+            I’m drawn to shapes, geometry, colors, and materials, always seeking balance between aesthetics and
+            functionality.
+            I’m driven by sustainability, people’s well-being, and a constant desire to grow.
+
+            “I design with a technical mind, a creative heart, and eyes focused on people.”
+
+
+
+
+          </p>
+
+          <div class="home__btns">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#portfolio" class="btn btn--transparent">Portfolio</a>
+          </div>
+        </div>
+
+        <div class="home__img-wrapper">
+          <img src="assets/img/profile.png" alt="" class="home__img" />
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__img-wrapper">
+          <img src="assets/img/about.png" alt="" class="about__img" />
+          <img src="assets/img/about.png" alt="" class="about__img" />
+          <img src="assets/img/about.png" alt="" class="about__img" />
+          <img src="assets/img/about.png" alt="" class="about__img" />
+        </div>
+
+        <div class="about__content">
+          <h2 class="section__title" data-title="Who am i?">
+            I'm Alice Perucchietti, a UI/UX Designer and Architect
+          </h2>
+
+          <p class="about__description">
+            Hi, I'm Alice
+            I'm a creative, dynamic person with a keen eye for detail. As a child, I dreamed of becoming a fashion
+            designer, drawn to materials, fabrics, shapes, geometry, order, colors, and their combinations. Over time,
+            this sensitivity naturally flowed into architecture, where I found a new way to express balance, aesthetics,
+            and functionality.
+            I embarked on a career in architectural design, focusing also on energy efficiency and building systems. At
+            the same time, I’ve always been deeply interested in the well-being of people: physically, mentally, and
+            environmentally.
+            Over the years, I felt the need to reinvent myself, blending my technical background with a more creative,
+            human-centered, and sustainable approach. This led me to discover my passion for digital design,
+            particularly UX and UI, where I design intuitive, inclusive, and beautiful interfaces. I believe in design
+            that truly speaks to people, accessible and created to make them feel comfortable.
+            In addition to my design work, I also work as a substitute teacher, an experience that has helped me develop
+            strong communication and teaching skills, allowing me to share my knowledge and passion with others.
+            In my free time, I engage in practical, handmade projects, practice sports (swimming and running), travel
+            for inspiration, and share my everyday life with my cat, my silent yet devoted desk companion.
+
+
+          </p>
+
+          <ul class="about__data grid">
+            <li class="data__item">
+              <h3 class="data__title">Name:</h3>
+              <span class="data__description">Alice Perucchietti</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">Age:</h3>
+              <span class="data__description">30 Years</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">From:</h3>
+              <span class="data__description">Turin, IT</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">Email</h3>
+              <span class="data__description about__link">alice.perucchietti@gmail.com</span>
+            </li>
+          </ul>
+
+          <div class="about__bottom">
+            <a href="" class="btn">Download Cv</a>
+
+            <div class="about__social-links">
+              <a href="" class="about__social-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+
+              <a href="" class="about__social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="" class="about__social-link">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+
+              <a href="" class="about__social-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title title-center" data-title="My Journey">
+        Qualification
+      </h2>
+
+      <div class="resume__container container grid">
+        <div class="resume__group">
+          <h3 class="resume__heading">Education</h3>
+
+          <div class="resume__items">
+            <div class="resume__item">
+              <input type="checkbox" id="resume-toggle-1" class="resume__toggle" />
+              <div class="resume__header">
+                <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                <label for="resume-toggle-1" class="resume__icon"></label>
+              </div>
+            
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Backend Programming</h3>
+                  <span class="resume__date">2014 - 2016</span>
+                </div>
+              
+                <p class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <input type="checkbox" id="resume-toggle-2" class="resume__toggle" />
+              <div class="resume__header">
+                <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                <label for="resume-toggle-2" class="resume__icon"></label>
+              </div>
+            
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Backend Programming</h3>
+                  <span class="resume__date">2014 - 2016</span>
+                </div>
+              
+                <p class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume__group">
+          <h3 class="resume__heading">Experience</h3>
+
+          <div class="resume__items">
+            <div class="resume__item">
+              <input type="checkbox" id="resume-toggle-3" class="resume__toggle" />
+              <div class="resume__header">
+                <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                <label for="resume-toggle-3" class="resume__icon"></label>
+              </div>
+            
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Backend Programming</h3>
+                  <span class="resume__date">2014 - 2016</span>
+                </div>
+              
+                <p class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <input type="checkbox" id="resume-toggle-4" class="resume__toggle" />
+              <div class="resume__header">
+                <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                <label for="resume-toggle-4" class="resume__icon"></label>
+              </div>
+            
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Backend Programming</h3>
+                  <span class="resume__date">2014 - 2016</span>
+                </div>
+              
+                <p class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <input type="checkbox" id="resume-toggle-5" class="resume__toggle" />
+              <div class="resume__header">
+                <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                <label for="resume-toggle-5" class="resume__icon"></label>
+              </div>
+            
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Backend Programming</h3>
+                  <span class="resume__date">2014 - 2016</span>
+                </div>
+              
+                <p class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <!-- <section class="qualification section" id="qualification">
+      <h2 class="section__title title-center" data-title="My Journey">
+        Qualification
+      </h2>
+
+      <div class="resume__container container grid">
+        <div class="resume__group">
+          <h3 class="resume__heading">Education</h3>
+
+          <div class="resume__items">
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Start 2 Impart</h3>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Master in UX/ UI Design</h3>
+                  <span class="resume__date">Nov.2024 - June 2025</span>
+                </div>
+
+                <p class="resume__description">
+                  Theory & Project:
+                  Graphic Design, Copywriting, Architettura dell’informazione,
+                  Design process, Obiettivi e Target, Analisi dei competitor, Analisi as
+                  is, Survey e Interviste, User Experience, Acessibilità, Wireframing,
+                  Design e sviluppo , User test , HTML, CSS, User Interface.
+                  Project work.
+
+                </p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">
+                  24 Ore Business School
+                </h3>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Executive Master in Energy Management, Environment & Sustainability</h3>
+                  <span class="resume__date">Oct.2022 - March 2023</span>
+                </div>
+
+                <p class="resume__description">
+                  HSE: Health, Safety, and Environment. Implementation,
+                  maintenance, and auditing of safety : ISO 50001, UNI EN
+                  45001, and UNI EN ISO 14001 standards, Risk assessment,
+                  Implementation ESG Objectives (& European Taxonomy),
+                  Ecological Transition,
+                  Standard: GRI, SASB, ESRS, European Agenda and
+                  International Goals,
+                  Energy Market, Oil & Gas, Smart City and Sustainable Mobility,
+                  Project Work: Sustainability Reporting for a company.
+                  Identify and classify stakeholders for the case-study; define a
+                  value for stakeholders and materiality topics for company
+                  product, Customer loyalty and Engagement in according to
+                  the criteria of the SASB (Sustainability Accounting Standards
+                  Board).
+                </p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">
+                  Politecnico di Torino
+                </h3>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title"> Master Degree in Architecture for Sustainable Project </h3>
+                  <span class="resume__date">Sept. 2019 - July 2024</span>
+                </div>
+
+                <p class="resume__description">
+                  Urban and building design (case study with quantitative and
+                  qualitative analysis, interviews/servey and preparation of
+                  questionnaires with closed or open answers), SWOT analysis
+                  for the redevelopment of an Alpine village (field study);
+                  Circular Economy, Certification (LEED, BREEAM, WELL), Study
+                  of sustainable materials, Project evaluation (LCC, LCA, Project
+                  Management, Cost concepts), Environmental technical
+                  physics, Design of outdoor and indoor environments, Building
+                  surveys & Structural calculations, Architectural history
+                  Final thesis: “Low enthalpy geothermal energy in an urban
+                  environment”
+
+
+                </p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Politecnico di Torino</h3>
+              </div>
+              <p class="resume__description">
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Bachelor Degree in Architecture</h3>
+                  <span class="resume__date">2014 - 2019</span>
+                </div>
+                <p class="resume__description"></p>
+
+
+                <p class="resume__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.
+                </p>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Artistic High School "A. Passoni"</h3>
+                  <span class="resume__date">2008 - 2013</span>
+                </div>
+                <p class="resume__description"></p>
+                Fashion and Costume Studies. Drawing, visual and geometric arts, color theory, pattern making.
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Substitute teacher in primary and preschool education</h3>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Primary School “M.L King”</h3>
+                    <span class="resume__date">Dec.2022 - PRESENT</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Proposal Engineering Assistant – Photovoltaic Sector</h3>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">ProNur – Progetto Nur s.r.l. </h3>
+                    <span class="resume__date">Sept. 2024 - Nov. 2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Sizing of residential and industrial photovoltaic systems, creation
+                    and management of files for the design of renewable energy
+                    systems, planning and technical-economic management of the
+                    client portfolio, drafting of ordinary and extraordinary
+                    maintenance contracts, and preparing estimates (SolarEdge
+                    design, PVGIS).
+
+
+
+                  <div class="resume__item">
+                    <div class="resume__header">
+                      <h3 class="resume__subtitle">Document recovery and revision </h3>
+                    </div>
+
+                    <div class="resume__content">
+                      <div class="resume__date-title">
+                        <h3 class="resume__title">ITALY RE s.r.l </h3>
+                        <span class="resume__date">Sept. 2022 - Nov. 2022</span>
+                      </div>
+                      <p class="resume__description">
+                        Technical expert for document recovery and revision (cadastral,
+                        municipal) and administration
+
+                      </p>
+                    </div>
+                    <div class="resume__group">
+                      <h3 class="resume__heading">Internship</h3>
+
+                      <div class="resume__items">
+                        <div class="resume__item">
+                          <div class="resume__header">
+                            <h3 class="resume__subtitle">Architectural Intern</h3>
+                          </div>
+
+                          <div class="resume__content">
+                            <div class="resume__date-title">
+                              <h3 class="resume__title">Architectural Studio “Macrì & Mancuso”</h3>
+                              <span class="resume__date">Oct.2021 - Jan. 2022</span>
+                            </div>
+
+                            <p class="resume__description">
+                              Building design of straw bale and timber structures
+
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="resume__item">
+                          <div class="resume__header">
+                            <h3 class="resume__subtitle">Architectural Intern</h3>
+                          </div>
+
+                          <div class="resume__content">
+                            <div class="resume__date-title">
+                              <h3 class="resume__title">Mauriziano Hospital’s Technical Office</h3>
+                              <span class="resume__date">Nov. 2017 - April 2018</span>
+                            </div>
+
+                            <p class="resume__description">
+                              Internship in the Technical Office for Building Maintenance of Hospital Departments
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    </section> -->
+
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services">
+      <h2 class="section__title title-center" data-title="Services">
+        What I do for you
+      </h2>
+
+      <div class="services__container container grid">
+        <div class="services__item">
+          <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+          <h3 class="services__title">UI/UX Design</h3>
+          <p class="services__description">
+            Services with more than 3 years of experience. Providing quality
+            work to clients and companies.
+          </p>
+
+          <span class="services__no">01</span>
+        </div>
+
+        <div class="services__item">
+          <i class="fa-solid fa-laptop services__icon"></i>
+
+          <h3 class="services__title">Web Development</h3>
+          <p class="services__description">
+            Services with more than 3 years of experience. Providing quality
+            work to clients and companies.
+          </p>
+
+          <span class="services__no">02</span>
+        </div>
+
+        <div class="services__item">
+          <i class="fa-solid fa-chart-area services__icon"></i>
+
+          <h3 class="services__title">Research & Analysis</h3>
+          <p class="services__description">
+            Services with more than 3 years of experience. Providing quality
+            work to clients and companies.
+          </p>
+
+          <span class="services__no">03</span>
+        </div>
+
+        <div class="services__item">
+          <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+          <h3 class="services__title">UI/UX Design</h3>
+          <p class="services__description">
+            Services with more than 3 years of experience. Providing quality
+            work to clients and companies.
+          </p>
+
+          <span class="services__no">04</span>
+        </div>
+
+        <div class="services__item">
+          <i class="fa-solid fa-laptop services__icon"></i>
+
+          <h3 class="services__title">Web Development</h3>
+          <p class="services__description">
+            Services with more than 3 years of experience. Providing quality
+            work to clients and companies.
+          </p>
+
+          <span class="services__no">05</span>
+        </div>
+
+        <div class="services__item">
+          <i class="fa-solid fa-chart-area services__icon"></i>
+
+          <h3 class="services__title">Research & Analysis</h3>
+          <p class="services__description">
+            Services with more than 3 years of experience. Providing quality
+            work to clients and companies.
+          </p>
+
+          <span class="services__no">06</span>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section">
+      <h2 class="section__title title-center" data-title="My Talent">
+        Professional Skills
+      </h2>
+
+      <div class="skills__container container grid">
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">HTML e CSS</h3>
+            <span class="skills__no">60 %</span>
+          </div>
+
+          <p class="skills__description">
+            Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 60%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Figma</h3>
+            <span class="skills__no">85 %</span>
+          </div>
+
+          <p class="skills__description">
+            Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 85%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Canva</h3>
+            <span class="skills__no">90 %</span>
+          </div>
+
+          <p class="skills__description">
+            Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 90%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Adobe Illustrator</h3>
+            <span class="skills__no">90 %</span>
+          </div>
+
+          <p class="skills__description">
+            Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 90%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Adobe Photoshop</h3>
+            <span class="skills__no">70 %</span>
+          </div>
+
+          <p class="skills__description">
+            Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 70%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Adobe XD</h3>
+            <span class="skills__no">80 %</span>
+          </div>
+
+          <p class="skills__description">
+            Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 80%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__item">
+        <div class="skills__titles">
+          <h3 class="skills__name">Adobe InDesign</h3>
+          <span class="skills__no">70 %</span>
+        </div>
+
+        <p class="skills__description">
+          Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.
+        </p>
+
+        <div class="skills__bar">
+          <div class="skills__percentage" style="width: 70%">
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__item">
+        <div class="skills__titles">
+          <h3 class="skills__name">Adobe XD</h3>
+          <span class="skills__no">80 %</span>
+        </div>
+
+        <p class="skills__description">
+          Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.
+        </p>
+
+        <div class="skills__bar">
+          <div class="skills__percentage" style="width: 80%">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="works section" id="works">
+      <h2 class="section__title title-center" data-title="My Portfolio">
+        Recent Works
+      </h2>
+
+      <div class="work__container container grid">
+        <div class="work__card">
+          <img src="assets/img/project-img-1.jpg" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title">Web design</h3>
+            <span class="work__description">This is a short description</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/project-img-2.jpg" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title">Android App</h3>
+            <span class="work__description">This is a short description</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/project-img-3.jpg" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title">PhotoShop</h3>
+            <span class="work__description">This is a short description</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/project-img-4.jpg" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title">UI/UX design</h3>
+            <span class="work__description">This is a short description</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/project-img-5.jpg" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title">Web design</h3>
+            <span class="work__description">This is a short description</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/project-img-6.jpg" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title">Web design</h3>
+            <span class="work__description">This is a short description</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== TESTIMONIALS ====================-->
+    <section class="testimonials section">
+      <h2 class="section__title title-center" data-title="Testimonials">
+        What My Clients Say
+      </h2>
+
+      <div class="testimonials__container container grid">
+        <div class="testimonials__item">
+          <p class="testimonials__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+            esse quasi, doloribus tempora. Dolores molestias adipisci dolor
+            sit amet!.
+          </p>
+
+          <div class="testimonials__data">
+            <img src="assets/img/testimonial-1.jpg" alt="" class="testimonials__img" />
+
+            <div>
+              <h3 class="testimonials__name">John wilson</h3>
+              <span class="testimonials__identity">Seattle, Washington</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials__item">
+          <p class="testimonials__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+            esse quasi, doloribus tempora. Dolores molestias adipisci dolor
+            sit amet!.
+          </p>
+
+          <div class="testimonials__data">
+            <img src="assets/img/testimonial-2.jpg" alt="" class="testimonials__img" />
+
+            <div>
+              <h3 class="testimonials__name">Wilson john</h3>
+              <span class="testimonials__identity">Seattle, Washington</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title title-center" data-title="Get in touch">
+        Contact Me
+      </h2>
+
+      <div class="contact__container container grid">
+        <div class="contact__details">
+          <div class="contact__item">
+            <i class="fa-solid fa-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Call Us</h3>
+              <span class="contact__data"></span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <i class="fa-solid fa-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Email Us</h3>
+              <span class="contact__data">alice.perucchietti@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <i class="fa-solid fa-location-dot contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Address</h3>
+              <span class="contact__data"></span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form">
+          <div class="form__group">
+            <div class="form__input">
+              <input type="text" placeholder="Name" class="input__control" />
+            </div>
+
+            <div class="form__input">
+              <input type="email" placeholder="Email" class="input__control" />
+            </div>
+          </div>
+
+          <div class="form__input">
+            <input type="text" placeholder="Subject" class="input__control" />
+          </div>
+
+          <div class="form__input">
+            <textarea name="" id="" placeholder="Message" cols="30" rows="10"
+              class="input__control textarea"></textarea>
+          </div>
+
+          <button class="btn contact__btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__container container">
+      <p class="footer__copyright">
+        &copy; 2025 AlicePerucchietti. All Rights Reserved
+      </p>
+
+      <div class="footer__social-links">
+        <a href="" class="footer__social-link">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a href="" class="footer__social-link">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="" class="footer__social-link">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+
+        <a href="" class="footer__social-link">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
