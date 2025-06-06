@@ -762,6 +762,7 @@ input[type='checkbox'] {
 
 .skills__bar {
   background-color: var(--border-color);
+  margin-top: 1rem;
 }
 
 .skills__percentage {
